@@ -50,16 +50,13 @@ function App() {
       <div className="container my-3">
 
         {/* <Routes>
-          <Route  exact path='/' element={} />
-          <Route exact path='/about' element={<About />} />
+          <Route   path='/' element={}/>
+          <Route  path='/about' element={} />
         </Routes> */}
 
-        <Textform showAlert={showAlert} heading="write text to analyze below" mode={mode} />
-
-        {/* <About/> */}
-
+        <Textform showAlert={showAlert} heading="write text to analyze below" mode={mode}/>
+        {/* <About mode={mode} /> */}
       </div>
-
 
     </>
   );
